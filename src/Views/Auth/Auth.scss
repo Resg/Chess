@@ -1,0 +1,30 @@
+
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 3px;
+  box-shadow: 0 0 5px black;
+  padding: 30px;
+  width: 30em;
+  background: white;
+  &__header {
+    font-family: "Noto Sans", SansSerif;
+    color: #5e5e5e;
+  }
+  &__input {
+    width: 100%;
+    border-radius: 3px;
+    font-family: "Noto Sans", SansSerif;
+  }
+  &__button {
+    background: #1b78d0;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
+  }
+}

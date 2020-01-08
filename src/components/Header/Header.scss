@@ -1,0 +1,31 @@
+
+.header {
+  //background: #deb270;
+  //box-shadow: 0 0 15px black ;
+  //height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  &__logo {
+    color: #4d4d4d;
+    font-family: "Noto Sans";
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 25px;
+  }
+  &__nav {
+    font-family: "Noto Sans S";
+    font-size: 14px;
+    text-shadow: 0 1px 0 #fff;
+    text-decoration: none;
+    color: #5e5e5e;
+    margin-right: 15px;
+  }
+  &__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
